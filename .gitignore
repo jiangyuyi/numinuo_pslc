@@ -1,0 +1,30 @@
+# Card-specific dumps, backups, generated logs, and patched binaries
+backups/
+work/
+analysis_report.md
+
+# Proprietary vendor MP packages, tools, and extracted binaries
+mp_package/
+tools/
+reference/
+*.rar
+*.zip
+*.7z
+*.fw
+*.elf
+*.bin
+*.exe
+*.dll
+*.pdf
+*.sav
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
